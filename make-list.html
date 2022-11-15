@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/make-list.css">
+    <title>To do list</title>
+</head>
+
+<body>
+    <div class="profile">
+        <div class="avatar">
+            <img src="./img/png/avatar.png" alt="your photo">
+            <div class="frame"></div>
+        </div>
+
+        <span class="name">Monica Gamage</span>
+
+        <span class="username">@monicagamage</span>
+
+        <div class="log-out">
+            <a href="sign-up.html">Log Out</a>
+        </div>
+    </div>
+
+    <div class="list-wrapper">
+        <img src="./img/png/clock.png">
+
+        <h1>Tasks List</h1>
+
+        <div class="tasks-list">
+            <div class="list-header" id="listHeader">
+                <h2>Tasks List</h2>
+                <button class="add-task" id="addTask">
+                    <img src="./img/svg/plus-circle.svg" alt="click to add new task">
+                </button>
+            </div>
+
+            <div class="list" id="tasksList">
+                <div class="task-item">
+                    <label>
+                        <input type="checkbox" class="checkbox">
+                    </label>
+
+                    <div class="task-content">
+                        <input type="text" value="create new task">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

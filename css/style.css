@@ -1,0 +1,161 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.063em;
+  background: rgba(244, 194, 127, 0.67);
+  padding-bottom: 1.188em;
+}
+
+.welcome-wrapper {
+  width: 100%;
+  margin-top: 10em;
+  width: 23.188em;
+}
+
+.signup-wrapper {
+  margin-top: 4.25em;
+  width: 17.938em;
+}
+
+.icon-img {
+  width: 100%;
+}
+
+h1 {
+  font: 400 1.5em/115.69% "Poppins";
+  text-align: center;
+  color: #000000;
+}
+
+h2 {
+  font: 400 1rem/115.69% "Poppins";
+  text-align: center;
+  color: #000000;
+}
+
+.description {
+  font: 400 0.75rem/139.19% "Poppins";
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: rgba(0, 0, 0, 0.74);
+  margin: 0.813em 2.938em;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75em;
+  width: 19.688em;
+  height: 3.5em;
+  background: linear-gradient(267.72deg, #d8605b -0.89%, #f4c27f 112.29%);
+  mix-blend-mode: normal;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+  margin-top: 1.938em;
+}
+
+.text-on-button {
+  font: 700 1rem/1.375rem "Poppins";
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.arrow-next {
+  height: 0.75em;
+  width: 1.375em;
+}
+
+h3 {
+  font: 400 0.75rem/1.438rem "Poppins";
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.313em;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-control input {
+  min-width: 20.313em;
+  min-height: 3.188em;
+  background: #ffffff;
+  border-radius: 22px;
+  padding-left: 1.875em;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.input-control input::placeholder {
+  font: 400 0.813em/1.125em "Poppins";
+  font-family: "Poppins";
+  letter-spacing: 0.06em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.input-control input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.input-control.error input {
+  border: 0.125em solid #d8605b;
+}
+
+.input-control.success input {
+  border: 0.125em solid #9bd9c0;
+}
+
+.error {
+  font: 400 0.8em/1.125em "Poppins";
+  font-family: "Poppins";
+  letter-spacing: 0.06em;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: left;
+  text-indent: 2.875em;
+}
+
+/*
+input.button {
+  margin-top: 1.375em;
+} */
+
+.go-to-sign-in {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.5em;
+  margin-top: 1.313em;
+}
+
+.question {
+  font: 400 0.875rem/1rem "Poppins";
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+.login-link {
+  font: 700 0.875rem/1rem "Poppins";
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #d8605b;
+}
+
+.reset-password-link {
+  margin-top: 4.063em;
+  margin-bottom: 2.7em;
+}
